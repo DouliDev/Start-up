@@ -60,9 +60,47 @@ ul.menu li a:hover, ul.menu li.current a{
 	color:#F2931F;
 }
 
+/**************slider**************/
+.slide{
+	width: 100%;
+	height: 496px;
+	overflow: hidden;
+	z-index: 1;
+	margin: 0px auto;
+	position: relative;
+	background: white;
+	border-bottom: 1px solid white;
+}
+.slider{
+	width: 1080px;
+	height: 496px;
+	overflow: hidden;
+	position: relative;
+	margin: 0px auto;
+
+}
+.banner{
+	position: absolute;
+	z-index: 0;
+	top: 97px;
+	left: 723px;
+	width: 320px;
+
+}
+.banner .text-1{
+	display: block;
+	margin-left: 88px;
+	margin-bottom: 25px
+	background: white;
+
+}
 .clear{
 	clear: both;
 	width: 100%;
+}
+p{
+	margin: 0;
+	padding: 0;
 }
 a{
 	text-decoration: none;
@@ -71,4 +109,26 @@ a{
 }
 a:hover{
 	text-decoration: none;
+}
+.text-1{
+	font-weight: normal;
+	color: black;
+	font-size: 60px;
+	line-height: 72px;
+	font-family: 'bilbo';
+
+}
+.text-1 strong{
+	font-weight: normal;
+	margin-top: -32px;
+	display: block;
+}
+.text-2{
+	font-family: 'lato';
+	font-weight: 300px;
+	font-style: italic;
+	color: gray;
+	font-size: 21px;
+	line-height: 35px;
+
 }
