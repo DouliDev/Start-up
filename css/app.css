@@ -1,3 +1,8 @@
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 body{
 	width: 100%;
 	padding: 0;
@@ -6,4 +11,64 @@ body{
 	color: #484848;
 	font-style:italic;
 	background-color: white;
+}
+header{
+	width: 100%;
+	background: url('../images/header-bg.jpg') 0 0 repeat;
+	border-bottom: 1px solid white;
+}
+
+h1{
+	display: inline-block;
+	z-index: 2;
+	margin-left: 300px;
+	margin-bottom: 20px;
+	margin-top: 16px;
+	position: relative;
+	float: left;	
+}
+
+nav{
+	display: inline-block;
+	z-index: 2;
+	position: relative;
+	float: right;
+	margin-right: 300px;
+	margin-bottom: 20px;
+}
+
+ul.menu{
+	margin: 28px 0 0 0;
+	display: inline-block;
+
+}
+
+ul.menu li {
+	float: left;
+	line-height: 30px;
+	margin: 0 0 0 48px;
+
+}
+ul.menu li a{
+	font-size: 25px;
+	line-height: 30px;
+	color: grey;
+	display: inline-block;
+	font-family: "bilbo";
+}
+ul.menu li a:hover, ul.menu li.current a{
+	color:#F2931F;
+}
+
+.clear{
+	clear: both;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	vertical-align: top;
+
+}
+a:hover{
+	text-decoration: none;
 }
