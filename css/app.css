@@ -110,6 +110,19 @@ ul.menu li a:hover, ul.menu li.current a{
 .box-1 h2{
 	margin-bottom: 8px;
 }
+.box-2{
+	background: url('../images/line-1.gif') 0 0 repeat-x;
+}
+.box-2 .wrap-col{
+	background: url('../images/line-1.gif') 0 bottom repeat-x;
+	padding: 15px 0 36px 0;
+	text-align: center;
+
+}
+.box-2 p.text-4{
+	margin-top: -7px;
+}
+
 .clear{
 	clear: both;
 	width: 100%;
@@ -156,6 +169,26 @@ a:hover{
 	color: gray;
 	font-size: 21px;
 	line-height: 35px;
+
+}
+.text-3{
+	font-family: "bilbo";
+	color: #484848;
+	font-size: 50px;
+	line-height: 60px;
+
+}
+.text-3 span{
+	color:#F2931F;
+}
+.text-4{
+	font-family: "lato";
+	line-height: 300px;
+	font-style: italic;
+	color: #484848;
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: -1px;
 
 }
 h2{
