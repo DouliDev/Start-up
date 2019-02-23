@@ -103,6 +103,13 @@ ul.menu li a:hover, ul.menu li.current a{
 	overflow: hidden;
 	padding: 40px 0 34px;
 }
+.box-1 img{
+	float: left;
+	margin-top: -3px;
+}
+.box-1 h2{
+	margin-bottom: 8px;
+}
 .clear{
 	clear: both;
 	width: 100%;
@@ -121,6 +128,13 @@ a{
 }
 a:hover{
 	text-decoration: none;
+}
+.link{
+	color:#F2931F;
+	text-decoration: none;
+}
+.link:hover{
+	text-decoration: underline;
 }
 .text-1{
 	font-weight: normal;
@@ -143,4 +157,11 @@ a:hover{
 	font-size: 21px;
 	line-height: 35px;
 
+}
+h2{
+	font-size: 31px;
+	line-height: 40px;
+	color: black;
+	font-weight: normal;
+	font-family: "bilbo";
 }
