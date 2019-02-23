@@ -94,9 +94,21 @@ ul.menu li a:hover, ul.menu li.current a{
 	background: white;
 
 }
+.content-bg{
+	width: 100%;
+	padding: 0 0 48px 0;
+	background: #f2f2f2;
+}
+.box-1{
+	overflow: hidden;
+	padding: 40px 0 34px;
+}
 .clear{
 	clear: both;
 	width: 100%;
+}
+.extra-wrap{
+	overflow: hidden;
 }
 p{
 	margin: 0;
