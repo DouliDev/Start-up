@@ -122,7 +122,15 @@ ul.menu li a:hover, ul.menu li.current a{
 .box-2 p.text-4{
 	margin-top: -7px;
 }
+.box-3{
+	overflow: hidden;
+}
+.box-3 > div{
+	width: 180px;
+	float: left;
+	margin-right: 25px;
 
+}
 .clear{
 	clear: both;
 	width: 100%;
@@ -197,4 +205,8 @@ h2{
 	color: black;
 	font-weight: normal;
 	font-family: "bilbo";
+}
+.top-1{
+	margin-top: 30px;
+
 }
