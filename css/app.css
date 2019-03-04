@@ -167,7 +167,6 @@ ul.menu li a:hover, ul.menu li.current a{
 	font-size: 20px;
 	line-height: 24px;
 	display: inline-block;
-	overflow: hidden;
 	margin-top: 21px;
 }
 .clear{
@@ -281,6 +280,10 @@ h2{
 }
 .top-2{
 	margin-top: 10px;
+
+}
+.top-3{
+	margin-top: 12px;
 
 }
 
