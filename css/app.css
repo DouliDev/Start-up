@@ -131,9 +131,15 @@ ul.menu li a:hover, ul.menu li.current a{
 	margin-right: 25px;
 
 }
+.box-3 > div a.link-2{
+	display: inline-block;
+	margin: 15px 0 6px 0;
+	
+}
 .last{
 	margin-right: 0px !important;
 	padding-right: 0px !important;
+
 }
 .clear{
 	clear: both;
@@ -160,6 +166,24 @@ a:hover{
 }
 .link:hover{
 	text-decoration: underline;
+
+}
+.link-2{
+	font-family: 'lato';
+	font-weight: 300px;
+	font-style: italic;
+	color: orange;
+	font-size: 20px;
+	line-height: 25px;
+	text-decoration: none;
+
+}
+.link-2:hover{
+	text-decoration: underline;
+
+}
+.img-border{
+	border: 8px solid white;
 }
 .text-1{
 	font-weight: normal;
