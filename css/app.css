@@ -141,6 +141,35 @@ ul.menu li a:hover, ul.menu li.current a{
 	padding-right: 0px !important;
 
 }
+.date{
+	overflow: hidden;
+
+}
+.date{
+	display: inline-block;
+	background: url('../images/date.png') 0 0 no-repeat;
+	width: 51px;
+	height: 53px;
+	float: left;
+	margin-right: 5px;
+	font-weight: normal;
+	color: black;
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+	font-family: 'bilbo';
+
+}
+.date span{
+	font-family: "lato";
+	font-weight: 300px;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 24px;
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 21px;
+}
 .clear{
 	clear: both;
 	width: 100%;
@@ -248,6 +277,10 @@ h2{
 }
 .top-1{
 	margin-top: 30px;
+
+}
+.top-2{
+	margin-top: 10px;
 
 }
 
