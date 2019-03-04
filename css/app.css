@@ -131,6 +131,10 @@ ul.menu li a:hover, ul.menu li.current a{
 	margin-right: 25px;
 
 }
+.last{
+	margin-right: 0px !important;
+	padding-right: 0px !important;
+}
 .clear{
 	clear: both;
 	width: 100%;
