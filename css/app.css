@@ -167,7 +167,19 @@ ul.menu li a:hover, ul.menu li.current a{
 	font-size: 20px;
 	line-height: 24px;
 	display: inline-block;
+	overflow: hidden;
 	margin-top: 21px;
+}
+footer{
+	width: 950px;
+	overflow: hidden;
+	margin: 0px auto;
+	padding: 31px 0 20px 0;
+}
+footer p{
+	float: left;
+	text-align: center;
+	width: 580px;
 }
 .clear{
 	clear: both;
