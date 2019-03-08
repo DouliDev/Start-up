@@ -204,12 +204,27 @@ footer p{
 	opacity: 0.7;
 
 }
+
+/******* about page ******/
+.box-5{
+	overflow: hidden;
+	padding-top: 8px;
+}
+.box-5 img{
+	margin: 4px 10px 0 0;
+}
 .clear{
 	clear: both;
 	width: 100%;
 }
 .extra-wrap{
 	overflow: hidden;
+}
+.right{
+	margin-right: 40px;
+}
+.floatleft{
+	float: left;
 }
 p{
 	margin: 0;
@@ -325,4 +340,7 @@ h2{
 .top-4{
 	margin-top: 14px;
 
+}
+.p2{
+	padding-bottom: 13px;
 }
